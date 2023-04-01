@@ -1,7 +1,177 @@
-.hidden {
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body{
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top; */
+    background-image:url(/home/linn/Restaurant-Page/images/background2.jpg);
+    /* width: 100%;
+    height: 100%; */
+    
+    letter-spacing: 0.02em;
+     font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+   }
+
+.page-content {
+    position: relative;
+    /* width: 250px;
+    height: 350px; */
+    top: calc(50% - 175px);
+    left: calc(45% - 120px);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    overflow: scroll;
+    height: 525px;
+  /* width: fit-content; */
+  padding: 30px;
+  max-width: 420px;
+}
+
+.page-content::-webkit-scrollbar {
     display: none;
 }
 
-.page-content {
-    background-color: aqua;
+
+
+.page-content>img {
+    width: 100px;
+    height: 100px;
 }
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.menu-item>img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.menu-item {
+    width: 200px;
+    padding: 2px;
+    gap: 100px;
+    transition: background-color 0.3s;
+
+    
+}
+
+.menu-item:hover{
+    background-color: rgba(99,99,99,0.5);
+    transform: scale(1.1);
+    
+    
+}
+
+.button {
+    /* padding: 2rem;
+    font-size: 2rem;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+    transition: transform 0.3s; */
+    font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-style: none;
+  outline: none;
+}
+
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom:100px ;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 0px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+.button-container>div {
+    transition: margin-top 0.1s;
+   
+    font-weight: bolder;
+}
+
+.button-container>div:hover {
+    margin-top: -10px;
+    
+    
+}
+
+.button-container>div:focus {
+    background-color: rgba(99,99,99,0.5);
+    
+     border-bottom: 2px solid white;
+}
+
+
+/* .homeC {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+} */
+
+
+
+
+.homeC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+   margin-left: 50px;
+   margin-top: 20px;
+    font-size: 25px;
+    gap: 40px;
+    font-weight: bolder;
+    
+  }
+  
+  .homeC>p {
+    /* padding: 30px; */
+  }
+  
+  .homeC>.images>img {
+    width: 50%;
+    
+    opacity: 90%;
+  }
+
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 525px;
+    width: 618px;
+    animation: fadeIn 1.5s;
+  }
+  
+  .contact p {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .contact img {
+    max-height: 420px;
+    margin-left: -180px;
+    opacity: 90%;
+  }
+  
