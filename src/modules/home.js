@@ -24,7 +24,7 @@ const loadHome = () => {
         
     })
     pageContent.addEventListener('mouseleave', () => {
-        chefImage.src = "dist/images/chef.png";
+        chefImage.src = "/images/chef.png";
         chefImage.alt = "Chef-hover";
         chefImage.style.cssText = "border-radius: 50%;";
         chefImage.style.height = '250px';
