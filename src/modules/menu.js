@@ -72,7 +72,7 @@ function createMenuItem(name, description) {
     foodDescription.textContent = description;
   
     const foodImage = document.createElement("img");
-    foodImage.src = ` ../images/pizzas/${name.toLowerCase()}.png`;
+    foodImage.src = `https://raw.githubusercontent.com/Pritam012/Restaurant-Page/main/images/pizzas/${name.toLowerCase()}.png`;
     foodImage.alt = `${name}`;
    
     menuItem.appendChild(foodImage);
