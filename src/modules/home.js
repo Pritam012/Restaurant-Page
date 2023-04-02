@@ -24,7 +24,7 @@ const loadHome = () => {
         
     })
     pageContent.addEventListener('mouseleave', () => {
-        chefImage.src = "/home/linn/Restaurant-Page/images/chef.png";
+        chefImage.src = "dist/images/chef.png";
         chefImage.alt = "Chef-hover";
         chefImage.style.cssText = "border-radius: 50%;";
         chefImage.style.height = '250px';
