@@ -8,7 +8,7 @@ const loadHome = () => {
     const images = document.createElement('div');
     images.classList.add('images');
     const chefImage = document.createElement("img");
-    chefImage.src = "/home/linn/Restaurant-Page/images/chef.png";
+    chefImage.src = "images/chef.png";
     chefImage.alt = "Chef";
     chefImage.style.cssText = "border-radius: 50%;";
     chefImage.style.height = '250px';
@@ -16,7 +16,7 @@ const loadHome = () => {
     
 
     pageContent.addEventListener('mouseover', () => {
-        chefImage.src = "/home/linn/Restaurant-Page/images/pizza-home.jpeg";
+        chefImage.src = "images/pizza-home.jpeg";
         chefImage.alt = "Chef-hover";
         chefImage.style.cssText = "border-radius: 50%;";
         chefImage.style.height = '250px';
@@ -24,7 +24,7 @@ const loadHome = () => {
         
     })
     pageContent.addEventListener('mouseleave', () => {
-        chefImage.src = "/images/chef.png";
+        chefImage.src = "images/chef.png";
         chefImage.alt = "Chef-hover";
         chefImage.style.cssText = "border-radius: 50%;";
         chefImage.style.height = '250px';
